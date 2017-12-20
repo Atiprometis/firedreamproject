@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, ButtonToolbar } from 'react-bootstrap';
-import HeaderPages from '../component/HeaderPages';
-import { Grid, Row, Col } from 'react-bootstrap';
 import '../css/home.css';
+
+import HeaderPages from '../component/HeaderPages';
+import Popular from '../component/Popular';
 
 class Home extends React.Component {
   render() {
@@ -12,7 +12,9 @@ class Home extends React.Component {
         <HeaderPages />
         <div className="container">
 
-          <p>asdsad</p>
+          <p className="font-p">Popular project</p>
+
+          <Popular />
         </div>
       </div>
     );
