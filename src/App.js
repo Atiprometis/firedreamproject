@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 
-import Index from './pages/index';
+import Home from './pages/Home';
 import '../node_modules/bulma/css/bulma.css';
-
+import Header from './component/header';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container">
+        <div className="">
           <div className="is-flex-mobile">
-            <Index />
+            <Header />
+            <Home />
+
           </div>
 
         </div>
