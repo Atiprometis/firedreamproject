@@ -2,10 +2,11 @@
   "name": "firedreamproject",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://Atiprometis.github.io/firedreamproject",
+  "homepage": "http://Atiprometis.github.io/firedreamproject",
   "dependencies": {
     "bulma": "^0.6.1",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
     "reactbulma": "^1.1.1"
@@ -17,7 +18,7 @@
     "lint": "eslint src",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
