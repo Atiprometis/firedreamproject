@@ -2,5 +2,16 @@
 
     height: 33px;
     width: 100%;
-    background-color: red;
+    background-color:  #ff8686 ;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.row-header{
+    padding: 3px;
+    text-align: center;
+}
+.not-text-align{
+    text-align: left;
 }
