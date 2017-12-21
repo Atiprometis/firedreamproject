@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Home from './pages/Home';
+import Home from './pages/index';
 import '../node_modules/bulma/css/bulma.css';
 
 

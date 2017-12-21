@@ -8,7 +8,7 @@ function setErrorMsg(error) {
   };
 }
 
-export default class Register extends Component {
+class Register extends React.Component {
     state = { registerError: null }
     handleSubmit = (e) => {
       e.preventDefault()
@@ -42,3 +42,5 @@ export default class Register extends Component {
       )
     }
   }
+
+  export default Register;
