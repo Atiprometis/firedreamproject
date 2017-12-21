@@ -10,6 +10,7 @@ class ProjectViewmore extends React.Component {
     return (
       <div className="bord">
         <Project />
+
       </div>
     );
   }

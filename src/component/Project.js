@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/project.css';
 import firebase from '../database/firebase';
-import Test from '../component/test';
 
 class Project extends React.Component {
   constructor() {
@@ -67,7 +66,7 @@ class Project extends React.Component {
           </div>
 
 
-      ))}
+))}
       </div>
 
 

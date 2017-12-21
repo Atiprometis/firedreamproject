@@ -5,7 +5,7 @@ const config = {
   authDomain: 'firedreamproject-125af.firebaseapp.com',
   databaseURL: 'https://firedreamproject-125af.firebaseio.com',
   projectId: 'firedreamproject-125af',
-  storageBucket: '',
+  storageBucket: 'firedreamproject-125af.appspot.com',
   messagingSenderId: '16829427653',
 };
 firebase.initializeApp(config);
@@ -13,7 +13,20 @@ firebase.initializeApp(config);
 export default firebase;
 export const provider = new firebase.auth.FacebookAuthProvider();
 
-export const auth = firebase.auth();
-
 export const ref = firebase.database().ref();
 export const firebaseAuth = firebase.auth;
+
+export function auth(email, pw) {
+  return firebaseAuth().createUserWithEmailAndPassword(email, pw)
+    .then(saveUser);
+}
+
+export function saveUser(user) {
+  return ref.child(`users/${user.uid}/info`)
+    .set({
+      email: user.email,
+      uid: user.uid,
+    })
+    .then(() => user);
+}
+

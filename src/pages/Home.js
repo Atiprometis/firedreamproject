@@ -5,6 +5,7 @@ import HeaderPages from '../component/HeaderPages';
 import Popular from '../component/Popular';
 import ProjectViewmore from '../component/ProjectViewmore';
 
+
 class Home extends React.Component {
   render() {
     return (
@@ -17,6 +18,7 @@ class Home extends React.Component {
 
           <Popular />
           <ProjectViewmore />
+
         </div>
       </div>
     );
