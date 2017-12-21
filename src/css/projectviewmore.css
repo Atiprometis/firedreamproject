@@ -1,0 +1,55 @@
+.bord{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px ;
+    border: 0.5px solid #D0D0D0;
+    box-shadow: -3px 6px 5px  #C3C3C3;
+    font-family: 'Kanit', sans-serif;
+    color: #7B7B7B;
+    margin-top: 20px;
+}
+.wapper-pj{
+    height: 190px;
+    width: 100%;
+    
+
+}
+
+.wapper-pj-1{
+    width: 100%;
+    height: 70px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.wapper-box-1{
+    width: 30%;
+    height: 70px;
+
+    float: left;
+   
+}
+.pj-img{
+    width: 80%;
+    height: 70px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.wapper-box-2{
+    width: 70%;
+    height: 70px;
+
+    float: left;
+    padding: 5px;
+}
+.project-font{
+    font-size: 16pt;
+    font-weight: bold;
+}
+.content-font{
+    font-size: 12pt;
+    font-weight: 300;
+    color: #C3C3C3;
+}

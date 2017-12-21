@@ -3,6 +3,7 @@ import '../css/home.css';
 
 import HeaderPages from '../component/HeaderPages';
 import Popular from '../component/Popular';
+import ProjectViewmore from '../component/ProjectViewmore';
 
 class Home extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class Home extends React.Component {
           <p className="font-p">Popular project</p>
 
           <Popular />
+          <ProjectViewmore />
         </div>
       </div>
     );
