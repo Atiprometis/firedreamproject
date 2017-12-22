@@ -19,11 +19,13 @@ class Test extends Component {
     this.login = this.login.bind(this);
     this.logout = this.logout.bind(this);
   }
+
   handleChange(e) {
     this.setState({
       [e.target.name]: e.target.value,
     });
   }
+
   logout() {
 
   }
