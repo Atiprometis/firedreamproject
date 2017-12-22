@@ -21,7 +21,7 @@ class HeaderPages extends React.Component {
                   </Col>
                   <Col xs={6} lg={4}>
                     <li>
-                      <p>Logo</p>
+                      <Link to="/dashboard" >Logo</Link>
                     </li>
                   </Col>
                   <Col xs={3} lg={4}>

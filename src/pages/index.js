@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/home.css';
-import HeaderPages from '../component/HeaderPages';
+
 import Popular from '../component/Popular';
 import ProjectViewmore from '../component/ProjectViewmore';
 
