@@ -4,9 +4,6 @@ import Project from '../component/Project';
 
 
 class ProjectViewmore extends React.Component {
-  constructor() {
-    super();
-  }
   render() {
     return (
       <div className="bord">

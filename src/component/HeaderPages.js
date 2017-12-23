@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/header.css';
 import { Grid, Row, Col } from 'react-bootstrap';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 class HeaderPages extends React.Component {
