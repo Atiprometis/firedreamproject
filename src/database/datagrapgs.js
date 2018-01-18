@@ -28,7 +28,7 @@ class Datagraphs extends Component {
 
           this.setState({ data1 });
         });
-    }, 100);
+    }, 1000);
   }
 
   //   console.log(${data1})
@@ -62,7 +62,8 @@ class Datagraphs extends Component {
             this.state.data1.wed,
             this.state.data1.thue,
             this.state.data1.fri,
-            this.state.data1.sat]
+            this.state.data1.sat,
+          ]
           // data: this.state.chartData.map()
 
           ,

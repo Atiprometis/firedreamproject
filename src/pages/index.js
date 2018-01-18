@@ -3,7 +3,7 @@ import '../css/home.css';
 
 import Popular from '../component/Popular';
 import ProjectViewmore from '../component/ProjectViewmore';
-
+import Uploaderimage from '../component/Uploaderimage';
 
 class Home extends React.Component {
   render() {
@@ -19,7 +19,7 @@ class Home extends React.Component {
 
           <Popular />
           <ProjectViewmore />
-
+          <Uploaderimage />
         </div>
       </div>
 

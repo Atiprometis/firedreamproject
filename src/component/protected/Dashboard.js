@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Line } from 'react-chartjs-2';
+
 
 import firebase from '../../database/firebase';
 import '../../css/dashborad.css';
