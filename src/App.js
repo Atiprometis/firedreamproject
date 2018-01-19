@@ -61,9 +61,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <HeaderPages />
-          <Button onClick={() => {
-                          logout()
-                        }} bsStyle="warning">logout</Button>
+          {/* <Button onClick={() => {logout()}} bsStyle="warning">logout</Button> */}
           <Switch>
             <Route path="/" exact component={Home} />
             <PublicRoute authed={this.state.authed} path="/register" exact component={Register} />
