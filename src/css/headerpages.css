@@ -1,0 +1,47 @@
+.header{
+
+    height: 33px;
+    width: 100%;
+    background-color:  #ff8686 ;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+
+}
+.colortt{
+    color: black;
+}
+.row-header{
+    padding: 3px;
+    text-align: center;
+}
+.not-text-align{
+    text-align: left;
+}
+.StartProject{
+    width: 100%;
+    height: 3%;
+    background-color: #ff8686;
+}
+.FindTeam{
+    width: 100%;
+    height: 3%;
+    background-color: darkgoldenrod;
+}
+.CharacterMe{
+    width: 100%;
+    height: 20%;
+    background-color: #000;
+}
+.Logout{
+    width: 100%;
+    height: 3%;
+    background-color: red;
+}
+.ContainerWapper{
+    text-align: center;
+}
+.chatcterMe-image{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
