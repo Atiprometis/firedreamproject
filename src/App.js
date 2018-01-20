@@ -10,6 +10,7 @@ import Dashboard from './component/protected/Dashboard';
 import { firebaseAuth } from './database/firebase'
 import {logout} from './database/firebase'
 import {Button}from 'react-bootstrap'
+import Findworks from './pages/Findworks'
 
 function PrivateRoute({ component: Component, authed, ...rest }) {
   return (
@@ -67,6 +68,7 @@ class App extends Component {
             <PublicRoute authed={this.state.authed} path="/register" exact component={Register} />
             <PublicRoute authed={this.state.authed} path="/login" exact component={Login} />
             <PrivateRoute authed={this.state.authed} path="/dashboard" component={Dashboard} />
+            <PrivateRoute authed={this.state.authed} path="/findworks" component={Findworks}/>
           </Switch>
         </div>
       </BrowserRouter>

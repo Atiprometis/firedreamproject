@@ -25,10 +25,7 @@ class HeaderPages extends React.Component {
     });
   }
 
-  onLogoutAndSetstate(){
-    
-   logout();
-  };
+ 
 
   render() {
     const { openLeft, openRight} = this.state;
@@ -63,7 +60,13 @@ class HeaderPages extends React.Component {
                     <h3 className="colortt">Start project</h3>
                 </div>
                 <div className="FindTeam">
-                    <h3 className="colortt">Find Team</h3>
+                <Link to="/findworks">
+                    <h3 className="colortt" 
+                    onClick={() => 
+                      this.setState({openLeft: !openLeft, openRight: false })
+                      }
+                    >Find Team</h3>
+                </Link>    
                 </div>
                 <div className="Logout">
                 
@@ -84,10 +87,10 @@ class HeaderPages extends React.Component {
                   <li>
 
                     
-                      <Link to="/" onClick={() =>
+                      <a to="/" onClick={() =>
                       this.setState({ openLeft: !openLeft, openRight: false })}
-                      
-                      >icon</Link>
+                      >icon
+                      </a>
                     </li>
                     
                   </Col>

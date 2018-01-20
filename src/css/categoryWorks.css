@@ -1,0 +1,17 @@
+.popular-img{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 2px;
+    box-shadow: -3px 6px 5px  #C3C3C3;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+body{
+  
+    font-family: 'Kanit', sans-serif;
+
+}

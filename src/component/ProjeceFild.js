@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Searchworks extends React.Component {
+class ProjeceFild extends React.Component {
   render() {
     return (
       <div />
@@ -8,5 +8,5 @@ class Searchworks extends React.Component {
   }
 }
 
-export default Searchworks;
+export default ProjeceFild;
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
-class Searchworks extends React.Component {
+
+class Jobdescription extends React.Component {
   render() {
     return (
       <div />
@@ -8,5 +9,4 @@ class Searchworks extends React.Component {
   }
 }
 
-export default Searchworks;
-
+export default Jobdescription;
