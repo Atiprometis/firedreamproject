@@ -19,13 +19,14 @@ class HeaderPages extends React.Component {
     width: 250
   };
 
+ 
   setWidth = e => {
     this.setState({
       width: Number(e.target.value) || e.target.value
     });
   }
 
- 
+
 
   render() {
     const { openLeft, openRight} = this.state;
@@ -71,9 +72,18 @@ class HeaderPages extends React.Component {
                 <div className="Logout">
                 
                   <Link to="/">
-                  <h3 className="colortt" onClick={() => 
-                  this.setState({openLeft: !openLeft, openRight: false })
-                  }>Log out</h3>
+                  {/* <h3 className="colortt" onClick={() => 
+                  // this.setState({openLeft: !openLeft, openRight: false })
+                  
+                  } */}
+                  
+                  <h3 className="colortt" onClick={(event)=> 
+                   {
+                    this.setState({openLeft: !openLeft, openRight: false });
+                    logout();
+                   }
+                   }
+                  >Log out</h3>
                   </Link>     
                 </div>
               </div>

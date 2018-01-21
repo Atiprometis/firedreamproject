@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "http://Atiprometis.github.io/firedreamproject",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.2",
+    "@fortawesome/fontawesome-free-solid": "^5.0.4",
+    "@fortawesome/react-fontawesome": "0.0.17",
     "bulma": "^0.6.1",
     "chart.js": "^2.7.1",
     "react": "^16.2.0",
